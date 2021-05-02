@@ -7,7 +7,7 @@ var loadImage = (src, callback) => {
 };
 
 var imagePath = (framenumber, animation) => {
-  return "/images/" + animation + "/" + framenumber + ".png";
+  return "images/" + animation + "/" + framenumber + ".png";
 };
 
 let frames = {
